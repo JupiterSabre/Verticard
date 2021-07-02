@@ -1,0 +1,196 @@
+.container {
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+.header_head {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 34px;
+    opacity: 0.7;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+.header_p{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    color: #61AEAE;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+
+
+.nav_button {
+    display: flex;
+    align-items: baseline;    
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:hover .nav_text {color:#0299CC ;} 
+a:hover .nav_tabs {background-color: #0299CC;}
+
+.nav_tabs {
+    width: 20px;
+    height: 7px;
+    background-color: #82848a;
+    float: none;
+    margin-right: 20px;
+}
+
+.nav_text {
+    color: #82848a;
+}
+
+.card_container{
+    position: relative;
+    max-width: 600px;
+    margin-top: 90px;
+    margin-bottom: 100px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.nav{
+    margin-left: 20px;
+    position: absolute;
+    top: 46px;
+    right: -118px;
+}
+
+.card_text_background {
+    position: relative;
+    background-repeat: no-repeat;
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('contact.jpg');
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+    padding: 0px;
+}
+
+.card_container_text {
+    color: blue;
+    padding: 50px ;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+.card_container_text {
+    height: 180px;
+    color: white;
+    z-index: 1;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.card_container_text_header {
+    font-size: 27px;
+    font-weight: 400;
+}
+
+.card_container_form {
+    margin-left: 50px;
+    margin-right: 120px;
+}
+
+.form_name {
+    margin-top: 60px;
+    width: 350px;
+    height: 30px;
+    border: none;
+    border-bottom:1px solid #CED4DA;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    outline: none;
+}
+
+.form_email {
+    margin-top: 30px;
+    width: 350px;
+    height: 30px;
+    border: none;
+    border-bottom:1px solid #CED4DA;
+    padding-left: 10px;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    outline: none;
+
+}
+
+.form_textarea {
+    margin-top: 30px;
+    width: 350px;
+    height: 150px;
+    border: none;
+    border-bottom:1px solid #CED4DA;
+    padding-left: 10px;
+    font-size: 18px;
+    padding-top: 15px;
+    outline: none;
+}
+
+.form_submit_button {
+    margin-top: 30px;
+    margin-bottom: 80px;
+    background-color: #8D8DE7;
+    color: white;
+    width: 120px;
+    height: 45px;
+    border: none;
+    font-size: 15px;
+    position: relative;
+    right: -250px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    color: #b2b6be;
+    margin-bottom: 50px;
+    font-size: 15px;
+} 
+
+::placeholder {
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+
+input:focus {
+    border:3px solid #9fcdff;
+}
+
+textarea:focus{
+    border: 3px solid #9fcdff;
+}
+
+input[type=submit]:hover {
+    background-color: #9A9AFC;
+}
