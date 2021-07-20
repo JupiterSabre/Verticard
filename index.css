@@ -54,11 +54,12 @@ body {
 
 .image {
     border-radius: 20px 20px 0px 0px;
+    width: 100%;
 }
 
 footer {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     color: #9A9B9C;
     padding-bottom: 50px;
 }
@@ -100,22 +101,34 @@ footer {
 
 }
 
-.nav {
-    position: absolute;
-    top: 0px;
-    padding-left: 10px;
-    right: -130px;
-    top: 40px;
-}
 .body_container {
     display: flex;
     flex-direction: column;
     position: relative;
-
 }
 
+.nav_text_index {
+    color: #0299CC;
+}
 
+.nav_bars_index {
+    width: 23px;
+    margin-right: 23px;
+    height: 8px;
+    background-color: #0299CC;
+}
 
 .nav_elements:hover .nav_bars { background-color: #0299CC;} 
 
 .nav_elements:hover .nav_text{color: #0299CC;}
+
+
+@media screen and (min-width:945px) {
+    .nav {
+        position: absolute;
+        top: 0px;
+        padding-left: 10px;
+        right: -130px;
+        top: 40px;
+        }
+    }
